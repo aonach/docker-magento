@@ -90,7 +90,7 @@ services:
   # update the bin/setup command to use the $ES_HOST variable as the value for
   # the --elasticsearch-host argument passed to bin/magento setup:install.
   elasticsearch:
-    image: markoshust/magento-elasticsearch:7.16-0
+    image: markoshust/magento-elasticsearch:8.13-0
     ports:
       - "9200:9200"
       - "9300:9300"
