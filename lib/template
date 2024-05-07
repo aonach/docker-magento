@@ -8,7 +8,7 @@ fi
 git init -qqq
 git remote add origin https://github.com/aonach/docker-magento
 git fetch origin -qqq
-git checkout origin/20240502-update -- compose
+git checkout origin/20240502-update-PHP8.2-- compose
 
 mv compose/* ./
 mv compose/.gitignore ./
