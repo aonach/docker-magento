@@ -22,7 +22,6 @@ services:
       - ~/.ssh/known_hosts:/var/www/.ssh/known_hosts:cached
       - ./wordpress:/var/www/wordpress:cached
       - ./src:/var/www/html:cached
-      - appdata:/var/www/html
       - sockdata:/sock
       - ssldata:/etc/nginx/certs
     extra_hosts: &appextrahosts
